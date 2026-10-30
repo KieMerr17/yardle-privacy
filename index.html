@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for Yardle, the daily golf distance game.">
+  <title>Privacy Policy | Yardle</title>
+
+  <style>
+    :root {
+      color-scheme: light;
+      --green: #185b3c;
+      --ink: #23332a;
+      --muted: #647168;
+      --background: #f7f8f4;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    header {
+      background: var(--green);
+      color: #fff;
+      padding: 36px 24px;
+    }
+
+    header div,
+    main,
+    footer {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .brand {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 3px;
+    }
+
+    .tagline {
+      margin: 3px 0 0;
+      opacity: 0.85;
+    }
+
+    main {
+      padding: 40px 24px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 34px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      margin: 32px 0 10px;
+      color: var(--green);
+      font-size: 21px;
+      line-height: 1.4;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    ul {
+      padding-left: 23px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--green);
+      overflow-wrap: anywhere;
+    }
+
+    a:focus-visible {
+      outline: 3px solid var(--green);
+      outline-offset: 4px;
+    }
+
+    .updated {
+      color: var(--muted);
+    }
+
+    .summary {
+      margin: 24px 0;
+      padding: 18px 20px;
+      background: #eaf0e8;
+      border-left: 4px solid var(--green);
+      border-radius: 4px;
+    }
+
+    .summary p {
+      margin: 0;
+    }
+
+    footer {
+      padding: 24px;
+      border-top: 1px solid #dce3da;
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <div class="brand">YARDLE</div>
+      <p class="tagline">Trust Your Eye.</p>
+    </div>
+  </header>
+
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 30 October 2026</p>
+
+    <p>
+      Yardle is a daily golf distance game operated by Kieran Merrett
+      (“Yardle”, “we”, “us” or “our”). Kieran Merrett is responsible for
+      the personal information described in this policy.
+    </p>
+
+    <p>
+      This policy explains how we handle information when you play
+      Yardle, use its administrator features or contact us.
+    </p>
+
+    <div class="summary">
+      <p>
+        Players can play without providing a name or email address.
+        Yardle creates an anonymous account to save gameplay and results.
+        We use gameplay activity and, where available, country-level
+        information for our own Yardle Studio statistics. Yardle has no
+        adverts and uses no third-party analytics or crash-reporting
+        SDKs. We do not sell personal information or track users across
+        other companies’ apps or websites.
+      </p>
+    </div>
+
+    <h2>1. Information we collect</h2>
+
+    <p><strong>Anonymous player accounts</strong></p>
+    <p>
+      When you play, Supabase Auth assigns an account identifier,
+      including for anonymous accounts. This identifier connects your
+      gameplay to your player account. Account and session information
+      is stored on your device using the app’s Keychain storage.
+      Ordinary players are not asked to provide an email address.
+    </p>
+
+    <p>
+      Playing anonymously does not mean that no personal data is
+      processed. Records associated with a persistent account
+      identifier may still be personal data.
+    </p>
+
+    <p><strong>Gameplay content</strong></p>
+    <p>
+      We store official guesses, scores, Plays Like estimates and round
+      history in Supabase against your player identifier. We use this
+      information to provide results, progress, statistics, streaks
+      and Yardle Handicap.
+    </p>
+
+    <p><strong>Play activity and country information</strong></p>
+    <p>
+      Yardle’s session-statistics features record activity times, guess
+      counts, outcomes and session duration against the player
+      identifier for Yardle Studio analytics.
+    </p>
+    <p>
+      Where a hosting service supplies a valid two-letter country code,
+      we store that code on the play session. This collection depends
+      on the session-statistics features being enabled in the deployed
+      service. We do not store an IP address or GPS location in these
+      play-session records.
+    </p>
+    <p>
+      Studio reports provide statistics about use of the game.
+      Exported statistics CSV files do not include raw player
+      identifiers, although the underlying session records remain
+      linked to player accounts.
+    </p>
+
+    <p><strong>Administrator information and photographs</strong></p>
+    <p>
+      Administrators sign in with an email address and password through
+      Supabase Auth. Their authentication session is stored in a
+      separate Keychain on the device.
+    </p>
+    <p>
+      Administrators can select and upload course photographs to
+      private Supabase Storage. These photographs are associated with
+      the administrator’s puzzles and made available to players for
+      eligible rounds.
+    </p>
+
+    <p><strong>Support communications</strong></p>
+    <p>
+      If you contact us, we receive your email address, message contents
+      and any information or attachments you choose to provide.
+    </p>
+
+    <p><strong>Service infrastructure</strong></p>
+    <p>
+      Our hosting and authentication providers process network requests
+      to deliver the service. This can involve technical information
+      such as IP addresses and operational logs, separate from the
+      gameplay and session records described above.
+    </p>
+
+    <h2>2. How we use information</h2>
+
+    <ul>
+      <li>Authenticate player and administrator accounts.</li>
+      <li>Provide daily puzzles and validate guesses and results.</li>
+      <li>Save round history, progress, streaks and Yardle Handicap.</li>
+      <li>Apply daily play limits and prevent duplicate submissions or abuse.</li>
+      <li>Provide combined community results in the Clubhouse.</li>
+      <li>
+        Understand game participation and play activity through
+        Yardle Studio statistics.
+      </li>
+      <li>Upload, manage and deliver puzzle photographs.</li>
+      <li>Maintain security and operate the service.</li>
+      <li>Respond to support enquiries and privacy requests.</li>
+    </ul>
+
+    <p>
+      We do not use this information for advertising, direct marketing
+      or personalised product recommendations.
+    </p>
+
+    <h2>3. Legal bases for processing</h2>
+
+    <p>
+      Under UK data protection law, we rely on performance of a contract
+      where processing is necessary to provide the game and features
+      you request.
+    </p>
+    <p>
+      We rely on legitimate interests for proportionate service
+      statistics, security, abuse prevention, administration and
+      responding to enquiries. These interests are understanding
+      participation in Yardle and maintaining a functioning, secure
+      service, while taking account of users’ rights and interests.
+    </p>
+    <p>
+      We may also process information to meet legal obligations.
+      Where consent is required for a particular activity, we will
+      request it separately.
+    </p>
+
+    <h2>4. Service providers and disclosure</h2>
+
+    <p>
+      We use Supabase for authentication, database hosting and storage
+      of accounts, gameplay, session statistics and puzzle photographs.
+      Supabase processes information to provide these services.
+      See
+      <a href="https://supabase.com/privacy">Supabase’s Privacy Policy</a>
+      for information about its practices.
+    </p>
+    <p>
+      We also use an email provider to receive and respond to messages.
+      Our providers may use infrastructure providers to deliver their
+      services.
+    </p>
+    <p>
+      We may disclose information where necessary to comply with law,
+      respond to a valid legal request or protect the security and
+      rights of users and the service.
+    </p>
+    <p>
+      We do not sell personal information or share it with advertisers
+      or data brokers.
+    </p>
+
+    <h2>5. International processing</h2>
+
+    <p>
+      Service providers may process information outside the United
+      Kingdom. Where applicable, international transfers require
+      appropriate legal protection, such as an adequacy decision or
+      approved contractual safeguards. Contact us for information
+      about the safeguards relevant to your data.
+    </p>
+
+    <h2>6. How long we keep information</h2>
+
+    <p>
+      We retain account and gameplay information while it is needed
+      to provide saved results, history and statistics, unless it
+      is deleted following a valid request.
+    </p>
+    <p>
+      Session information, support correspondence and operational
+      records are retained only for as long as needed for their
+      stated purposes, taking account of security, dispute resolution
+      and legal requirements. Administrator photographs are retained
+      while needed to provide and manage puzzles.
+    </p>
+    <p>
+      Deleted information may remain temporarily in backups until
+      those backups expire. Statistics that have been irreversibly
+      anonymised and can no longer identify a player may be retained.
+    </p>
+
+    <h2>7. Deletion and your rights</h2>
+
+    <p>
+      To request deletion of your account and associated personal
+      information, email
+      <a href="mailto:yardle.golf@hotmail.com">yardle.golf@hotmail.com</a>.
+      Removing the app from your device alone does not delete
+      information stored on our servers.
+    </p>
+    <p>
+      Because ordinary players do not provide a name or email address,
+      we may need your player identifier or other information to locate
+      the correct account and verify a request. If we cannot identify
+      your records, we may be unable to act on them. Do not send
+      passwords or authentication tokens.
+    </p>
+    <p>
+      Depending on the circumstances and applicable law, you may have
+      rights to:
+    </p>
+
+    <ul>
+      <li>Access your personal information.</li>
+      <li>Correct inaccurate information.</li>
+      <li>Request deletion of your information.</li>
+      <li>Restrict or object to certain processing.</li>
+      <li>Receive a portable copy of certain information.</li>
+      <li>Withdraw consent where processing relies on consent.</li>
+    </ul>
+
+    <p>
+      These rights are subject to legal conditions and exceptions.
+      Contact us using the email address below to exercise them.
+    </p>
+    <p>
+      You can also complain to the UK Information Commissioner’s Office
+      at
+      <a href="https://ico.org.uk/make-a-complaint/">ico.org.uk</a>,
+      or to your local data protection authority.
+    </p>
+
+    <h2>8. Device storage and tracking</h2>
+
+    <p>
+      Yardle stores its own settings and game state using UserDefaults,
+      and authentication information using Keychain storage.
+    </p>
+    <p>
+      Yardle does not use an advertising identifier, request App Tracking
+      Transparency permission or track users across other companies’
+      apps or websites. It does not read your contacts.
+    </p>
+
+    <h2>9. This privacy-policy website</h2>
+
+    <p>
+      This page is hosted using GitHub Pages. GitHub may process
+      technical information, including visitors’ IP addresses, when
+      serving the page. This is separate from data collected by the
+      Yardle app. See the
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">
+        GitHub Privacy Statement
+      </a>.
+    </p>
+
+    <h2>10. Children’s privacy</h2>
+
+    <p>
+      Ordinary players are not asked to provide a name, email address
+      or other contact details. If you believe a child has provided
+      personal information that should be removed, contact us so we
+      can investigate and respond.
+    </p>
+
+    <h2>11. Security</h2>
+
+    <p>
+      We use technical and organisational measures intended to protect
+      personal information, including authentication, access controls
+      and secure connections. No online service can guarantee
+      absolute security.
+    </p>
+
+    <h2>12. Changes to this policy</h2>
+
+    <p>
+      We may update this policy when Yardle or its data practices
+      change. We will publish the current version here and update the
+      date above. Where required, we will provide additional notice
+      of significant changes.
+    </p>
+
+    <h2>13. Contact</h2>
+
+    <p>
+      Data controller: Kieran Merrett, operator of Yardle.
+    </p>
+    <p>
+      Privacy questions and requests:
+      <a href="mailto:yardle.golf@hotmail.com">yardle.golf@hotmail.com</a>.
+    </p>
+  </main>
+
+  <footer>
+    Yardle · Trust Your Eye.
+  </footer>
+</body>
+</html>
